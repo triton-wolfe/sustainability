@@ -2,7 +2,7 @@
     'use strict';
     var baseUrl = 'https://triton-wolfe.github.io/sustainability';
 
-    angular.module('sustainability')
+    angular.module('greeksustain')
         .value('baseUrl', baseUrl)
         .config(['$stateProvider', '$urlRouterProvider', function($stateProvider, $urlRouterProvider) {
             $stateProvider.state('Home', {

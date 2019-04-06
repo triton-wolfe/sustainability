@@ -240,7 +240,7 @@ div::-webkit-scrollbar, textarea::-webkit-scrollbar, ul::-webkit-scrollbar {
     outline: none !important;
 }
 
-/* Remove X and ▼ from inputs */
+/* Remove X and ▼ from inputs */x
 *::-ms-clear {
     display: none;
 }

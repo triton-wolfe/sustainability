@@ -1,1 +1,1 @@
-angular.module('Sustainability', ['ui.router', 'toaster', 'LocalStorageModule', 'angular-clipboard', 'firebase']);
+angular.module('greeksustain', ['ui.router', 'toaster', 'LocalStorageModule', 'angular-clipboard', 'firebase']);

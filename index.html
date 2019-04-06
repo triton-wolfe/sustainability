@@ -13,8 +13,6 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-clipboard/1.6.2/angular-clipboard.min.js"></script>
         <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
-
-
         <script src="https://www.gstatic.com/firebasejs/5.9.3/firebase.js"></script>
         <script>
             // Initialize Firebase
@@ -35,17 +33,17 @@
 
 
         <!-- app references -->
-        <link rel="/sources/css/utils.css" />
-        <link rel="/sources/css/site.css" />
+        <link rel="stylesheet" href="/sources/css/utils.css" />
+        <link rel="stylesheet" href="/sources/css/site.css" />
         <script src="/sources/config.js"></script>
         <script src="/sources/router.js"></script>
 
     </head>
-    <body ng-app="Sustainability">
+    <body ng-app="greeksustain">
         <div toaster-container
             toaster-options="{'time-out': 1800, 'position-class': 'toast-bottom-right', 'close-button': false}">
         </div>
-        <div class="main-page">
+        <div>
             <ui-view></ui-view>
         </div>
     </body>
