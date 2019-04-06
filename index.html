@@ -35,9 +35,16 @@
 
 
         <!-- app references -->
+        <link rel="/sources/css/utils.css" />
+        <link rel="/sources/css/site.css" />
 
     </head>
-    <body>
-
+    <body ng-app="Sustainability">
+        <div toaster-container
+            toaster-options="{'time-out': 1800, 'position-class': 'toast-bottom-right', 'close-button': false}">
+        </div>
+        <div class="main-page">
+            <ui-view></ui-view>
+        </div>
     </body>
 </html>
